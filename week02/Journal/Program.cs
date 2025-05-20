@@ -57,7 +57,7 @@ class Program
 
     public static void SaveToFile(List<Entry> entries)
     {
-        Console.WriteLine("Saving to file...");
+        Console.WriteLine("Saving to 'entries.txt'\n");
 
         string filename = "entries.txt";
 
@@ -73,7 +73,7 @@ class Program
 
     public static List<Entry> ReadFromFile()
     {
-        Console.WriteLine("Reading  to file...");
+        Console.WriteLine("\nReading from 'entries.txt'\n");
 
         List<Entry> entries = new List<Entry>();
 
